@@ -3,89 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DINO</title>
+    <title>Dino Drops - Boost Your Productivity with Adorable Dinosaur Companions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="./newicon.png">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<style>
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-
-.navbar {
-    background-color: black;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px 0;
-}
-
-.navbar a {
-    color: white;
-	line-height: 80px;
-    text-decoration: none;
-}
-
-.navbar img {
-    width: 80px;
-}
-
-
-.title {
-    font-size: 30px;
-    text-align: center;
-}
-
-.content {
-    font-size: 12px;
-    text-align: left;
-}
-
-
-
-h2 {
-      font-size: 30px;
-      margin-bottom: 10px;
-    }
-
-    strong {
-      font-weight: bold;
-    }
-
-    p {
-      margin-bottom: 5px;
-    }
-</style>
-
-
 <body>
-    <div class="navbar">
-		<img src="./app.png" alt="" />
-        <a href="index.html">Dino</a>
-        <a href="termsofuse.html">terms of use</a>
-        <a href="privacypolicy.html">Privacy Policy</a>
-    </div>
-    <img src="./app.png" alt="" / style="width: 60vw;">
-    <h2>Dino Drops: A Mac App to Boost Your Productivity with Adorable Dinosaur Companions</h2>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="newicon.png" alt="Dino Drops Logo">
+                    <span>Dino Drops</span>
+                </div>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="termsofuse.html">Terms of Use</a></li>
+                    <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                    <li><a href="https://apps.apple.com/us/app/new-file-monitor-dino-drops/id6502590534" class="download-btn">Download</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <p>Dino Drops is a Mac application that helps you enhance your productivity, accompanied by its charming dinosaur mascot. With Dino Drops, you can effortlessly achieve the following:</p>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Boost Your Productivity with Adorable Dinosaur Companions</h1>
+                <p>Dino Drops is a Mac application that helps you enhance your productivity, accompanied by its charming dinosaur mascot.</p>
+                <a href="https://apps.apple.com/us/app/new-file-monitor-dino-drops/id6502590534" class="cta-button">Download Now</a>
+            </div>
+            <div class="hero-image">
+                <img src="newicon.png" alt="Dino Drops App Icon" class="app-icon">
+                <div class="app-preview">
+                    <div class="mac-window">
+                        <div class="window-controls">
+                            <span class="control red"></span>
+                            <span class="control yellow"></span>
+                            <span class="control green"></span>
+                        </div>
+                        <div class="window-content">
+                            <div class="dino-interface">
+                                <div class="dino-sidebar">
+                                    <div class="sidebar-item active">Files</div>
+                                    <div class="sidebar-item">Bookmarks</div>
+                                    <div class="sidebar-item">Network</div>
+                                    <div class="sidebar-item">Settings</div>
+                                </div>
+                                <div class="dino-main">
+                                    <div class="dino-header">
+                                        <h3>Drag & Drop Files</h3>
+                                    </div>
+                                    <div class="dino-dropzone">
+                                        <div class="dino-mascot"></div>
+                                        <p>Drop files here</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <h3>Key Features</h3>
+    <section class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon drag-drop"></div>
+                    <h3>Drag and Drop Files and Text</h3>
+                    <p>Seamlessly move files and text to desired locations using intuitive drag-and-drop functionality.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon folder-access"></div>
+                    <h3>Quick Folder Access</h3>
+                    <p>Create bookmarks and assign names, allowing you to effortlessly open frequently used folders through Dino Drops.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon network-speed"></div>
+                    <h3>Real-time Network Speed Monitoring</h3>
+                    <p>Gain a clear understanding of your current network status with the intuitive display of network speed.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon customizable"></div>
+                    <h3>Customizable Content</h3>
+                    <p>The editing page empowers you to personalize project titles and content, tailoring Dino Drops to your unique preferences.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon flexible"></div>
+                    <h3>Flexible Addition and Removal</h3>
+                    <p>Freely hide or remove customized projects, ensuring Dino Drops always aligns with your evolving needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <ul>
-    <li><strong>Drag and Drop Files and Text:</strong> Seamlessly move files and text to desired locations using intuitive drag-and-drop functionality.</li>
-    <li><strong>Quick Folder Access:</strong> Create bookmarks and assign names, allowing you to effortlessly open frequently used folders through Dino Drops.</li>
-    <li><strong>Real-time Network Speed Monitoring:</strong> Gain a clear understanding of your current network status with the intuitive display of network speed.</li>
-    <li><strong>Customizable Content:</strong> The editing page empowers you to personalize project titles and content, tailoring Dino Drops to your unique preferences.</li>
-    <li><strong>Flexible Addition and Removal:</strong> Freely hide or remove customized projects, ensuring Dino Drops always aligns with your evolving needs.</li>
-  </ul>
+    <section class="audience">
+        <div class="container">
+            <h2>Who is Dino Drops For?</h2>
+            <p>Dino Drops is designed for anyone seeking to enhance their productivity. Whether you're a seasoned efficiency enthusiast or simply seeking a capable digital assistant, Dino Drops will prove to be an invaluable asset in your workflow.</p>
+        </div>
+    </section>
 
-  <h3>Target Audience</h3>
+    <section id="download" class="download">
+        <div class="container">
+            <h2>Ready to Boost Your Productivity?</h2>
+            <p>Download Dino Drops today and experience the perfect blend of productivity and fun.</p>
+            <a href="https://apps.apple.com/us/app/new-file-monitor-dino-drops/id6502590534" class="cta-button">Download for Mac</a>
+            <div class="requirements">
+                <p>Requires macOS 10.15 or later</p>
+            </div>
+        </div>
+    </section>
 
-  <p>Dino Drops is designed for anyone seeking to enhance their productivity. Whether you're a seasoned efficiency enthusiast or simply seeking a capable digital assistant, Dino Drops will prove to be an invaluable asset in your workflow.</p>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./newicon.png" alt="Dino Drops Logo">
+                    <span>Dino Drops</span>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="termsofuse.html">Terms of Use</a></li>
+                        <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <p>Contact: <a href="mailto:hidefull-apps@outlook.com">hidefull-apps@outlook.com</a></p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Dino Drops. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

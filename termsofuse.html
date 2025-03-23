@@ -3,124 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DINO</title>
+    <title>Terms of Use - Dino Drops</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="./newicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<style>
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.navbar {
-    background-color: black;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px 0;
-}
-
-.navbar a {
-    color: white;
-	line-height: 80px;
-    text-decoration: none;
-}
-
-.navbar img {
-    width: 80px;
-}
-
-
-.title {
-    font-size: 30px;
-    text-align: center;
-}
-
-.content {
-    font-size: 12px;
-    text-align: left;
-}
-
-
-
-
-h2 {
-      font-size: 30px;
-      margin-bottom: 10px;
-    }
-
-    strong {
-      font-weight: bold;
-    }
-
-    p {
-      margin-bottom: 5px;
-    }
-</style>
-
-
 <body>
-    <div class="navbar">
-		<img src="./app.png" alt="" />
-        <a href="index.html">Dino</a>
-        <a href="termsofuse.html">terms of use</a>
-        <a href="privacypolicy.html">Privacy Policy</a>
-    </div>
-    <img src="./app.png" alt="" / style="width: 60vw;">
-     <h1>Dino App Terms of Use</h1>
-    
-        <h2>1. Overview</h2>
-    
-        <p>These Terms of Use (the "Terms") govern your use of the Dino application (the "App") developed by [Dino Team] (the "Company"). By using the App, you agree to be bound by these Terms. If you do not agree to these Terms, you may not use the App.</p>
-    
-        <h2>2. License Grant</h2>
-    
-        <p>The Company grants you a non-exclusive, non-transferable license to use the App on a single Apple device that you own or control. You may not distribute or make the App available over a network where it could be used by multiple devices at the same time. You may not transfer, redistribute, or sublicense the App.</p>
-    
-        <h2>3. Restrictions on Use</h2>
-    
-        <p>You may not use the App for any illegal or unauthorized purpose. You may not use the App in any way that could damage, disable, overburden, or impair the App or interfere with the use of the App by any other party. You may not modify, adapt, or reverse engineer the App. You may not remove, alter, or obscure any copyright, trademark, or other proprietary notices displayed on the App.</p>
-    
-        <h2>4. Intellectual Property</h2>
-    
-        <p>The App and all content and materials included in the App, including but not limited to text, images, audio, video, and software, are the property of the Company or its licensors. You may not use any of the Company's intellectual property without the Company's prior written consent.</p>
-    
-        <h2>5. Disclaimer of Warranties</h2>
-    
-        <p>THE APP IS PROVIDED "AS IS" AND WITHOUT ANY WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. THE COMPANY DOES NOT WARRANT THAT THE APP WILL BE UNINTERRUPTED OR ERROR-FREE. THE COMPANY DISCLAIMS ANY AND ALL LIABILITY FOR ANY DAMAGES ARISING OUT OF OR IN CONNECTION WITH THE USE OF THE APP, INCLUDING BUT NOT LIMITED TO DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES.</p>
-    
-        <h2>6. Limitation of Liability</h2>
-    
-        <p>IN NO EVENT SHALL THE COMPANY BE LIABLE FOR ANY DAMAGES ARISING OUT OF OR IN CONNECTION WITH THE USE OF THE APP, INCLUDING BUT NOT LIMITED TO DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES, EVEN IF THE COMPANY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
-    
-        <h2>7. Indemnification</h2>
-    
-        <p>You agree to indemnify, defend, and hold harmless the Company, its officers, directors, employees, agents, and affiliates from and against any and all claims, losses, damages, liabilities, costs, and expenses (including but not limited to attorneys' fees) arising out of or in connection with your use of the App.</p>
-    
-        <h2>8. Termination</h2>
-    
-        <p>The Company may terminate these Terms and your access to the App at any time, for any reason, without notice. Upon termination, you must cease all use of the App and delete all copies of the App in your possession or control.</p>
-    
-        <h2>9. Governing Law</h2>
-    
-        <p>These Terms shall be governed by and construed in accordance with the laws of the State of California, without regard to its conflict of laws principles.</p>
-    
-        <h2>10. Entire Agreement</h2>
-    
-        <p>These Terms constitute the entire agreement between the Company and you with respect to the App and supersede all prior or contemporaneous communications, representations, or agreements, whether oral or written.</p>
-    
-        <h2>11. Severability</h2>
-    
-        <p>If any provision of these Terms is held to be invalid or unenforceable, such provision shall be struck from these Terms and the remaining provisions shall remain in full force and effect.</p>
-    
-        <h2>12. Waiver</h2>
-    
-        <p>No waiver of any provision of these Terms shall be effective unless in writing and signed by both parties.</p>
-    
-        <h2>13. Notices</h2>
-    
-        <p>All notices and other communications hereunder shall be in writing and shall be deemed to have been duly given when delivered in person, upon the first business day following deposit in the United States mail, postage prepaid, certified or registered
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="newicon.png" alt="Dino Drops Logo">
+                    <span>Dino Drops</span>
+                </div>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="termsofuse.html" class="active">Terms of Use</a></li>
+                    <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                    <li><a href="https://apps.apple.com/us/app/new-file-monitor-dino-drops/id6502590534" class="download-btn">Download</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="legal-content">
+        <div class="container">
+            <h1>Dino App Terms of Use</h1>
+            
+            <div class="legal-section">
+                <h2>1. Overview</h2>
+                <p>These Terms of Use (the "Terms") govern your use of the Dino application (the "App") developed by Dino Team (the "Company"). By using the App, you agree to be bound by these Terms. If you do not agree to these Terms, you may not use the App.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>2. License Grant</h2>
+                <p>The Company grants you a non-exclusive, non-transferable license to use the App on a single Apple device that you own or control. You may not distribute or make the App available over a network where it could be used by multiple devices at the same time. You may not transfer, redistribute, or sublicense the App.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>3. Restrictions on Use</h2>
+                <p>You may not use the App for any illegal or unauthorized purpose. You may not use the App in any way that could damage, disable, overburden, or impair the App or interfere with the use of the App by any other party. You may not modify, adapt, or reverse engineer the App. You may not remove, alter, or obscure any copyright, trademark, or other proprietary notices displayed on the App.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>4. Intellectual Property</h2>
+                <p>The App and all content and materials included in the App, including but not limited to text, images, audio, video, and software, are the property of the Company or its licensors. You may not use any of the Company's intellectual property without the Company's prior written consent.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>5. Disclaimer of Warranties</h2>
+                <p>THE APP IS PROVIDED "AS IS" AND WITHOUT ANY WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. THE COMPANY DOES NOT WARRANT THAT THE APP WILL BE UNINTERRUPTED OR ERROR-FREE. THE COMPANY DISCLAIMS ANY AND ALL LIABILITY FOR ANY DAMAGES ARISING OUT OF OR IN CONNECTION WITH THE USE OF THE APP, INCLUDING BUT NOT LIMITED TO DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>6. Limitation of Liability</h2>
+                <p>IN NO EVENT SHALL THE COMPANY BE LIABLE FOR ANY DAMAGES ARISING OUT OF OR IN CONNECTION WITH THE USE OF THE APP, INCLUDING BUT NOT LIMITED TO DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES, EVEN IF THE COMPANY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>7. Indemnification</h2>
+                <p>You agree to indemnify, defend, and hold harmless the Company, its officers, directors, employees, agents, and affiliates from and against any and all claims, losses, damages, liabilities, costs, and expenses (including but not limited to attorneys' fees) arising out of or in connection with your use of the App.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>8. Termination</h2>
+                <p>The Company may terminate these Terms and your access to the App at any time, for any reason, without notice. Upon termination, you must cease all use of the App and delete all copies of the App in your possession or control.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>9. Governing Law</h2>
+                <p>These Terms shall be governed by and construed in accordance with the laws of the State of California, without regard to its conflict of laws principles.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>10. Entire Agreement</h2>
+                <p>These Terms constitute the entire agreement between the Company and you with respect to the App and supersede all prior or contemporaneous communications, representations, or agreements, whether oral or written.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>11. Severability</h2>
+                <p>If any provision of these Terms is held to be invalid or unenforceable, such provision shall be struck from these Terms and the remaining provisions shall remain in full force and effect.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>12. Waiver</h2>
+                <p>No waiver of any provision of these Terms shall be effective unless in writing and signed by both parties.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>13. Notices</h2>
+                <p>All notices and other communications hereunder shall be in writing and shall be deemed to have been duly given when delivered in person, upon the first business day following deposit in the United States mail, postage prepaid, certified or registered.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="newicon.png" alt="Dino Drops Logo">
+                    <span>Dino Drops</span>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="termsofuse.html">Terms of Use</a></li>
+                        <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <p>Contact: <a href="mailto:hidefull-apps@outlook.com">hidefull-apps@outlook.com</a></p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Dino Drops. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
